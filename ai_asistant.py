@@ -34,7 +34,7 @@ with col2:
                            value=today_minutes,
                            step=5)
 
-# Generate button
+
 if st.button(t("generate plan", "plan oluştur"), type="primary", use_container_width=True):
     if not konu:
         st.error(t(
